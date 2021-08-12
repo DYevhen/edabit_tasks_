@@ -1,4 +1,4 @@
-public class task1 {
+public class HowMuchIsTrue {
     /**
      Name: How Much is True?
      Difficult: Easy

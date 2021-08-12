@@ -1,4 +1,4 @@
-public class task2 {
+public class GetWordCount {
     /**
      Name: Get Word Count
      Difficult: Easy
