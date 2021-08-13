@@ -10,16 +10,16 @@ public class HowManySolutions {
      x² - 1 = 0 has two solutions (x = 1 and x = -1)
 
      solutions(1, 0, 0) ➞ 1
-     x² = 0 has one solution (x = 0)
+     x² = 0 has one soluHtion (x = 0)
 
      solutions(1, 0, 1) ➞ 0
      x² + 1 = 0 has no real solutions.
      */
     public static int solutions(int a, int b, int c) {
-        int i = b * b - 4 * a * c;
-        if (i > 0) {
+        int x = b * b - 4 * a * c;
+        if (x > 0) {
             return 2;
         }
-        return i == 0? 1:0;
+        return x == 0? 1:0;
     }
 }

@@ -3,5 +3,6 @@ public class Main {
         System.out.println(HowMuchIsTrue.countTrue(new boolean[]{true, false, true, false, true, true}));
         System.out.println(GetWordCount.countWords("Hello my name is Yevhen, how are you?"));
         System.out.println(HowManySolutions.solutions(1,0,0));
+        System.out.println(HouseInFront.oppositeHouse(46,54));
     }
 }
