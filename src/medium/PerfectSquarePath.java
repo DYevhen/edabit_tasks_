@@ -1,3 +1,5 @@
+package medium;
+
 public class PerfectSquarePath {
     /**
      Name: Perfect Square Patch

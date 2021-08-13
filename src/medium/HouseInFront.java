@@ -1,3 +1,5 @@
+package medium;
+
 public class HouseInFront {
     /**
      * Name: Opposite House

@@ -1,3 +1,5 @@
+package easy;
+
 public class HowMuchIsTrue {
     /**
      Name: How Much is True?

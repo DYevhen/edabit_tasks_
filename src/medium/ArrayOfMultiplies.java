@@ -1,3 +1,5 @@
+package medium;
+
 public class ArrayOfMultiplies {
     /**
      Name: Array of Multiples

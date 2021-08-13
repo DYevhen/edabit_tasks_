@@ -1,3 +1,5 @@
+package medium;
+
 public class WarOfNumbers {
     /**
      * Name: War of Numbers

@@ -1,3 +1,11 @@
+import easy.GetWordCount;
+import easy.HowMuchIsTrue;
+import hard.ConsecutiveNumbers;
+import medium.ArrayOfMultiplies;
+import medium.HouseInFront;
+import medium.HowManySolutions;
+import medium.WarOfNumbers;
+
 import java.util.Arrays;
 
 public class Main {
@@ -8,5 +16,6 @@ public class Main {
         System.out.println(HouseInFront.oppositeHouse(46, 54));
         System.out.println(Arrays.toString(ArrayOfMultiplies.arrayOfMultiples(11, 11)));
         System.out.println(WarOfNumbers.warOfNumbers(new int[]{2, 6, 11, 42, 17, 55, 64}));
+        System.out.println(ConsecutiveNumbers.cons(new int[]{5,1,2,3,4}));
     }
 }

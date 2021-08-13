@@ -1,3 +1,5 @@
+package medium;
+
 public class HowManySolutions {
     /**
      Name: How Many Solutions Does This Quadratic Have?

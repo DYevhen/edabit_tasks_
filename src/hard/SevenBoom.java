@@ -1,3 +1,5 @@
+package hard;
+
 public class SevenBoom {
     /**
      Name: Seven Boom!

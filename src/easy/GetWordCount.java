@@ -1,3 +1,5 @@
+package easy;
+
 public class GetWordCount {
     /**
      Name: Get Word Count
