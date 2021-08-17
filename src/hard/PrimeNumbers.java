@@ -1,7 +1,5 @@
 package hard;
 
-import java.util.Arrays;
-
 public class PrimeNumbers {
     /**
      * Name: How Many "Prime Numbers" Are There?
