@@ -22,10 +22,6 @@ public class LargestGap {
      * // After sorting: [1, 2, 2, 3, 4, 5, 5, 6, 8, 8, 9, 10, 11, 13, 13, 14]
      * // Largest gap between 6 and 8 is 2
      */
-    public static void main(String[] args) {
-        System.out.println(largestGap(new int[]{13, 3, 8, 5, 5, 2, 13, 6, 14, 11, 4, 10, 8, 1, 9}));
-    }
-
     public static int largestGap(int[] numbers) {
         int gap = 0;
         quickSort(numbers, 0, numbers.length - 1);
