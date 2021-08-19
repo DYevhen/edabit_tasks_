@@ -13,7 +13,6 @@ public class FilterOutString {
      * filterArray([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
      */
     public static String[] filterArray(String[] str) {
-        String numbers = "[0-9]+?";
-        return Stream.of(str).filter(x -> x.matches(numbers)).toArray(String[]::new);
+        return Stream.of(str).filter(x -> x.matches("[0-9]+?")).toArray(String[]::new);
     }
 }
